@@ -1,7 +1,32 @@
 .nav {
-  background-color: red;
+  position: fixed;
+  background-color: #2d2d2d;
+  width: 30%;
+  margin-inline: auto;
+  top: 1.25rem;
+  border-radius: 3.125rem;
+  padding-block: 1.25rem;
+  left: 50%;
+  z-index: 5;
+  transform: translateX(-50%);
 }
 
 .nav ul {
   display: flex;
+  justify-content: center;
+  gap: 3.125rem;
+}
+
+.nav ul li {
+  list-style: none;
+  transform: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav ul li:hover {
+  transform: scale(1.05);
+}
+
+.nav a {
+  text-decoration: none;
 }

@@ -1,0 +1,10 @@
+.container {
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  max-width: 90%;
+  margin-inline: auto;
+}
